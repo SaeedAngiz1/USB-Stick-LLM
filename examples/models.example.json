@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "name": "Qwen3-8B Q4",
+      "file": "Qwen3-8B-Q4_K_M.gguf",
+      "recommended_ram_gb": 16,
+      "notes": "Good baseline for portability."
+    },
+    {
+      "name": "Qwen3-30B-A3B Q4 (MoE)",
+      "file": "Qwen3-30B-A3B-Q4.gguf",
+      "recommended_ram_gb": 32,
+      "notes": "Faster or slower depending on hardware and active experts."
+    }
+  ]
+}
